@@ -1,0 +1,28 @@
+{
+  "name": "email-multiplexer",
+  "version": "0.0.1",
+  "description": "create email aliases",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artsoroka/email-multiplexer.git"
+  },
+  "keywords": [
+    "email",
+    "multiplex",
+    "alias"
+  ],
+  "author": "Artem Soroka <art.soroka@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artsoroka/email-multiplexer/issues"
+  },
+  "homepage": "https://github.com/artsoroka/email-multiplexer#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0"
+  }
+}
