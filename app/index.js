@@ -37,7 +37,7 @@ app.get('/multiplex/:email', function(req,res){
 }); 
 
 app.all('*', function(req, res){
-    res.status(404)send('sorry, page not found');  
+    res.status(404).send('sorry, page not found');  
 }); 
 
 module.exports = app; 
