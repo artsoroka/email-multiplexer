@@ -1,0 +1,12 @@
+name: email-multiplexer
+version: 0.0.1
+
+authors:
+  - Artem Soroka
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: sdogruyol/kemal
+    branch: master
